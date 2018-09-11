@@ -61,7 +61,7 @@ section{
 	font-size: 21px !important;
 }
 
-.smallsize{	
+.smallsize{
 	font-size: 18px !important;
 }
 
@@ -189,4 +189,70 @@ nav a:hover{
     content: "";
     display: table;
     clear: both;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+/*
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+			 .section{
+			   text-align:center;
+			   padding:50px 80px;
+			 }
+
+*/
+
+
+
+			 /* Always set the map height explicitly to define the size of the div
+			        * element that contains the map. */
+			       #map {
+			         height: 100%;
+			       }
+			       /* Optional: Makes the sample page fill the window. */
+			       html, body {
+			         height: 100%;
+			         margin: 0;
+			         padding: 0;
+			       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						 form {
+					   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+					   position: absolute;
+					   left: 10px;
+					   top: 10px;
+					 }
+
+					 label {
+					   display: block;
+					 }
+
+.ticks{
+	position: relative;
+	color: black;
 }
